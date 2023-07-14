@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo/png/logo-no-background.png"  type="image/x-icon"/>
+    <link rel="stylesheet" href="css/zolo.css">
+	<link rel="stylesheet" href="../fonts/icofont/icofont.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>zolo</title>
+</head>
+
+
+<body class=" body-bg">
+
+<!-- header/navigation section starts -->		
+
+<div class= "container-fluid fixed-top nav-cont-border nav-bg p-0 txt " >
+	
+    <nav  class="navbar  navbar-expand-sm navbar-dark   p-0 "  >
+     <div class="container p-0">
+      <a class="navbar-brand ms-2" href="zolo.html"><img src="logo/png/logo-no-background.png" alt="zolo-logo" width="40" height="45"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="  collapse navbar-collapse  justify-content-center " id="mynavbar">
+      <ul class="navbar-nav   rounded-0   justify-content-between  " >
+         <li class="nav-item px-sm-3 pt-2 px-md-5 dropdown"><a class="nav-link active dropdown-toggle"  data-bs-toggle="dropdown" href="#">Home</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="zolo.html">Home</a></li>
+                <li><a class="dropdown-item" href="zolo-movies.html">Movies</a></li>
+                <li><a class="dropdown-item" href="zolo-tshows.html">TV Show</a></li>
+                
+                
+              </ul>
+    
+        
+        
+        
+        </li>
+
+         <li class="nav-item px-sm-3 pt-2 px-md-5  dropdown"><a class="nav-link active dropdown-toggle"  data-bs-toggle="dropdown" href="#">Genre</a>
+            <ul class="dropdown-menu w-100 flex-row">
+                <li><a class="dropdown-item" href="genre/action.html">Action</a></li>
+            <li><a class="dropdown-item" href="genre/adventure.html">Adventure</a></li>
+            <li><a class="dropdown-item" href="genre/animated.html">Animated</a></li>
+            <li><a class="dropdown-item" href="genre/crime.html">Crime</a></li>
+            <li><a class="dropdown-item" href="genre/comedy.html">Comedy</a></li>
+            <li><a class="dropdown-item" href="genre/drama.html">Drama</a></li>
+            <li><a class="dropdown-item" href="genre/fantasy.html">Fantasy</a></li>
+            <li><a class="dropdown-item" href="genre/horror.html">Horror</a></li>
+            <li><a class="dropdown-item" href="genre/mystry.html">Mystery</a></li>
+            <li><a class="dropdown-item" href="genre/romance.html">Romance</a></li>
+            <li><a class="dropdown-item" href="#">Sport</a></li>
+            <li><a class="dropdown-item" href="genre/thriller.html">Thriller</a></li>
+            <li><a class="dropdown-item" href="genre/war.html">War</a></li>
+                
+              </ul>
+        
+         <li class="nav-item px-sm-3 pt-2 px-md-5"><a class="nav-link text-white " href="plans.html" >Pricing</a></li>
+        
+        
+         <li class="nav-item px-sm-3 px-md-5 dropdown">
+            <button class="btn border-0 dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"><i class="bi bi-person-circle text-white fs-4  "></i></button>
+            <form class="dropdown-menu p-4 dropdown-menu-dark " style="width:250px">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail2" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword2" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                    <label class="form-check-label" for="dropdownCheck2">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+                <p class="fs-6 mt-2 text-end"><a href="signup.html" target="_blank" class="text-decoration-none text-white">Create an account</a></p>
+              </form>
+            </div>
+        </li>
+         
+      </ul>
+     
+      </div>
+     
+        
+        <button class="btn rounded-circle " data-bs-target="#khul" data-bs-toggle="modal" type="submit"><i class="bi bi-search" style="color:crimson;font-size: 20px;"></i></button>
+      
+      </div>
+     
+     </nav>  
+
+  </div>
+
+
+  <!-- search box popup-->
+  <div class="modal fade search-mod" id="khul" >
+    <div class="modal-dialog">
+      <div class="modal-content search-grad" >
+  
+        
+        <div class="modal-header border-0  " style="height:40px ;">
+          <h4 class="modal-title text-center w-100 ">Flix finder</h4>
+          <button type="button " class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <div class="modal-body searchd">
+            <form class="d-flex " role="search">
+                <input class="form-control px-3 border-0" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn border-0 " type="submit"><i class="bi bi-search" style="color:crimson;font-size: 20px;"></i></button>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- signup -->
+
+
+
+  
+<!-- header/navigation section ends -->
+
+<!-- subscription plan start -->
+<div class="container-fluid bg2">
+
+
+    <div class="row rounded-4 justify-content-center ">
+        
+  <div class="col-md-9 text-white  rounded-4 ">
+    <div class="text-center text-white display-3 my-5">Subscription Plans</div>
+    <div class="container">
+    <table class="table table-dark pricing    h-100  " >
+        <thead>
+          <tr>
+            <th class="text-center">PRICE</th>
+            <th class="text-center">BENEFITS</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-center">$1/month</td>
+            <td class="text-center">Supports Upto Full-HD resolution</td>
+            <td class="text-center"><a type="button" class="btn btn-danger" target="_blank" href="signup.html">Buy</a>	</td>
+          </tr>
+          <tr>
+            <td class="text-center">$3/month</td>
+            <td class="text-center">Supports Upto 2k resolution <br> Dolby Audio support</td>
+            <td class="text-center"><a type="button" class="btn btn-danger" target="_blank" href="signup.html">Buy</a></td>
+          </tr>
+          <tr>
+            <td class="text-center">$5/month</td>
+            <td class="text-center">Supports Upto 4k Resolution <br> Dolby Audio support <br>Exclusive early access of movies and tv-shows</td>
+            <td class="text-center"><a type="button" class="btn btn-danger" target="_blank" href="signup.html">Buy</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+    </div></div>
+<!--  subscription section ends -->
+
+
+ <!-- footer -->
+ <div class="container-fluid">
+    <div class="row footer justify-content-center p-5">
+        
+         <div class="col-6 text-center text">
+    
+           <h1 class="text-center">Connect With Us</h1>
+          <i class="icofont-instagram" style="padding: 25px 10px 5px; font-size: 30px; display: inline-block;"></i>
+          <i class="icofont-twitter" style="padding: 25px 10px 5px;font-size: 30px; display: inline-block;"></i>
+          <i class="icofont-twitch" style="padding: 25px 10px 5px;font-size: 30px; display: inline-block;"></i>
+         </div>
+        
+     </div>
+        </div>
+     <div class="container-fluid">
+     <div class="row">
+         <div class="col-12 rights"><p>©️1999-2023 R-Rated. All Rights Reserved. </p></div>
+         </div>
+        </div></div>
+     
+     <!-- footer ends -->
+
+
+
+</body>
